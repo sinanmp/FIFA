@@ -1,0 +1,2010 @@
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    background-color: rgb(70, 0, 101);
+    position: fixed;
+    z-index: 5;
+}
+.main-body{
+    margin: 0;
+}
+.header-image{
+    display: inline-block;
+    width: 47px;
+    height: 15px;
+    margin-left: 23px;
+    margin-top: 10px;
+     transition: 1s; 
+  }
+  .header-image:hover{
+    width: 70px;
+    height: 25;
+  }
+.fifa-com:hover{
+    color: #D5C46C;
+}
+.all{
+   
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: "Poppins 500","Noto Sans Regular","Helvetica Neue",Arial,sans-serif;
+    color:#ffff;
+    cursor: pointer;
+}
+.buy-tickets{
+    margin-right:30px;
+    cursor: pointer;
+}
+.fifae{
+    cursor: pointer;
+    margin-right: 30px;
+}
+.fifa-store{
+    cursor: pointer;
+    margin-right: 30px;
+}
+.fifa-com{
+    cursor: pointer;
+    margin-right: 22px;
+}
+.buy-tickets:hover{
+    color: #D5C46C;
+}
+.fifae:hover{
+    color: #D5C46C;
+}
+.fifa-store:hover{
+    color: #D5C46C;
+}
+.fifa-com:hover{
+    color: #D5C46C;
+}
+.main-violet{
+    width: 100%;
+    height: 667px;
+    background-color:#550065;
+    padding-top: 29px;
+}
+.img1{
+    width: 29px;
+    height: 27px;
+    margin-left: 16px;
+    margin-top: 19px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.button1{
+    background-color: #550065;
+    border: none;
+    border-radius: 15px;
+}
+.img:hover{
+    opacity: 50%;
+}
+
+.dupe-cont{
+    display: flex;
+    text-decoration: none;
+}
+.world-logo{
+    width: 107px;
+    height: 42px;
+    border-width: none;
+    background-color: #550065;
+}
+.world-logo-button{
+    border: none;
+    border-radius: 15px;
+    margin-top: 13px;
+    margin-left: 12px;
+    background-color: #550065;
+    cursor: pointer;
+}
+.news{
+    color: #ffff;
+    text-decoration: none;
+    margin-left: 214px;
+    margin-top: -31px;
+    font-size: .875rem;
+    font-weight: 500;
+    font-family: "Poppins 500","Noto Sans Regular","Helvetica Neue",Arial,sans-serif;
+}
+.highlights{
+    color: #ffff;
+    font-size: .875rem;
+    font-weight: 500;
+    font-family: "Poppins 500","Noto Sans Regular","Helvetica Neue",Arial,sans-serif;
+    margin-top: -31px;
+    margin-left: 26px;
+    text-decoration: none;
+}
+.knockout{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Poppins 500","Noto Sans Regular","Helvetica Neue",Arial,sans-serif;
+    margin-top: -31px;
+    margin-left: 26px;
+    font-size: .875rem;
+}
+.scores{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Poppins 500","Noto Sans Regular","Helvetica Neue",Arial,sans-serif;
+    margin-top: -31px;
+    margin-left: 26px;
+    font-size: .875rem;
+}
+.teams{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Poppins 500","Noto Sans Regular","Helvetica Neue",Arial,sans-serif;
+    margin-top: -31px;
+    margin-left: 26px;
+    font-size: .875rem;
+}
+.fifa-worl-cup{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Poppins 500","Noto Sans Regular","Helvetica Neue",Arial,sans-serif;
+    margin-top: -31px;
+    margin-left: 26px;
+    font-size: .875rem;
+}
+.festival{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Poppins 500","Noto Sans Regular","Helvetica Neue",Arial,sans-serif;
+    margin-top: -31px;
+    margin-left: 26px;
+    font-size: .875rem;
+}
+.festival:hover{
+    color: #D5C46C;
+}
+.fifa-worl-cup:hover{
+    color: #D5C46C;
+}
+.teams:hover{
+    color: #D5C46C;
+}
+.scores:hover{
+    color: #D5C46C;
+}
+.knockout:hover{
+    color: #D5C46C;
+}
+.news:hover{
+    color: #D5C46C;
+}
+.highlights:hover{
+    color: #D5C46C;
+
+}
+.custom-select{
+    position: relative;
+  font-family: Arial;
+  width: 44px;
+  height: 23px;
+   margin-top: -37px;
+   margin-left: 69px;
+   color: white;
+background-color: rgb(110, 38, 124);
+border: none;
+border-radius: 5px;
+font-family: "Poppins 500","Noto Sans Regular","Helvetica Neue",Arial,sans-serif;
+font-weight: bold;
+margin-right: 38px;
+}
+.custom-select:hover{
+    background-color: lightblue;
+
+}
+.search{
+    width: 94px;
+    color: white;
+    background-color: rgb(110, 38, 124);
+    height: 29px;
+    margin-top: -41px;
+    border-radius: 15px;
+    border: none;
+    font-weight:200;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.fa-magnifying-glass{
+    margin-top: -33px;
+}
+.solid-div{
+    position: relative;
+    margin-top: -35px;
+    margin-left: 4px;
+    margin-right: -18px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+.fa-user{
+    width: 10px;
+    margin-top: -33px;
+    cursor: pointer;
+}
+.search:hover{
+    color: #D5C46C;
+}
+.fa-user:hover{
+    color: aqua;
+}
+.whatch{
+    width: 149px;
+    height: 170px;
+    margin-left: 119px;
+    margin-top: 48px;
+  
+}
+.matches-image{
+    margin-top: 22px;
+    margin-left: 54px;
+    width: 285px;
+    height: 30px;
+}
+.flex-matches{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.france{
+    width: 322px;
+    height: 122px;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-top: 13px;
+}
+.morocco{
+    width: 322px;
+    height: 122px;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-top: 13px;
+}
+.argentina{
+    width: 1138px;
+    height: 569px;
+    margin-left: 43px;
+    margin-top: 5px;
+    
+
+}
+.row-div{
+    display: flex;
+    flex-direction: row;
+}
+.white-div{
+    width: 100%;
+    height: 2016px;
+    background-color:#EEEEE4;
+    padding-top: 3px;
+    overflow: hidden;
+}
+.legacy{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-left: 96px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.messi-girl{
+    display: flex;
+    flex-direction: column;
+    width: 658px;
+    height: 362px;
+    margin-left: 87px;
+    margin-top: -7px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+.legacy-div{
+    margin-top: 10px;
+}
+.bring{
+    font-family: 'poppins', sans-serif;
+    font-weight: 407;
+    font-size: 15px;
+    margin-left: 89px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+.scroll{
+    width: 74px;
+    margin-left: 147px;
+    margin-top: 8px;
+    height: 20px;
+}
+.messi-cup{
+    margin-left: 18px;
+
+}
+.text-div{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+.see-all{
+    margin-top: 49px;
+    margin-left: 1126px;
+    font-family: 'poppins', sans-serif;
+    opacity: 0.6;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+.see-image{
+    width: 85px;
+    height: 362px;
+    margin-left: 20px;
+}
+.texts{
+    display: flex;
+    flex-direction: row;
+}
+.champions{
+    font-weight: 407;
+     font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    margin-left: 561px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+.fifa-wold{
+    font-weight: 407;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    margin-left: 384px;
+    margin-top: 10px;
+    opacity: 0.2;
+    cursor: pointer;
+
+}
+.see-all:hover{
+    color: #D5C46C;
+}
+.round {
+    cursor: pointer;
+    width: 671px;
+    height: 362px;
+    transition: .3s;
+    position: relative;
+    display: inline-block;
+}
+.overflow{
+    margin-top: 83px;
+    margin-left: 89px;
+    overflow:hidden ;
+    width: 671px;
+    height: 362px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+}
+.round:hover{
+    transform: scale(1.1,1.1);
+}
+.fa-circle-play{
+    font-size: 64px;
+    color: #EEEEE4;
+    cursor: pointer;
+    z-index: 3;
+}
+.the-best{
+    font-family: 'poppins', sans-serif;
+    margin-top: 19px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 92px;
+    cursor: pointer;
+}
+.watch-the{
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    margin-left: 93px;
+    margin-top: 207.1px;
+    cursor: pointer;
+}
+.best-share{
+    display: flex;
+    flex-direction: row;
+
+}
+.button1{
+    width: 64px;
+    height: 62px;
+    background-color: white;
+    position: relative;
+    right: 660px;
+    top: 370px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.share-button{
+    width: 34px;
+    height: 40px;
+    cursor: pointer;
+}
+.first-share{
+    margin-top: -46px;
+    margin-left: 720px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}
+.messi-air{
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.overflow-two{
+    width: 327px;
+    height: 185px;
+    border-radius: 15px;
+    margin-top: 85px;
+    margin-left: 55px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    right: 100px;
+}
+.messi-air:hover{
+    transform: scale(1.1,1.1);
+}
+.canada{
+    width: 327px;
+    height: 185px;
+    transition: .3s;
+}
+.overflow-three{
+    width: 327px;
+    height: 185px;
+    margin-top: 85px;
+    margin-left: 21px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.canada:hover{
+    transform: scale(1.1,1.1)
+}
+.second-see{
+    margin-left: -58px;
+    margin-top: 59px;
+    font-family: 'poppins', sans-serif;
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+.second-see:hover{
+    color: black;
+}
+.tribute{
+    display: flex;
+    justify-content: center;
+    margin-right: -222px;
+    margin-top: -299px;
+}
+.second-button{
+    font-size: 45px;
+    margin-right: 379px;
+}
+.a-tribute{
+    font-family: 'poppins', sans-serif;
+    margin-top: 79px;
+    margin-right: -30px;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.walid{
+    font-family: 'poppins', sans-serif;
+    margin-right: 178px;
+    margin-top: -45px;
+    font-weight: 500;
+    font-size: 18px;
+    z-index: 2;
+}
+.walid-fa{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+}
+.share-div{
+    margin-top: -96px;
+}
+.second-share{
+    margin-top: 180px;
+    margin-left: -35px;
+}
+.third-share{
+    margin-top: 274px;
+    margin-left: -137px;
+}
+.right-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: -246px;
+    margin-right: 105px;
+}
+.ar-su{
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+    transition: .3s;
+    margin: 0;
+}
+.best-goal{
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+    transition: .3s;
+    margin: 0;
+}
+.overflow-four{
+    width: 327px;
+    height: 185px;
+    margin-right: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.overflow-five{
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: -25px;
+}
+.ar-su:hover{
+    transform: scale(1.1,1.1);
+}
+.best-goal:hover{
+    transform: scale(1.1,1.1);
+}
+.button3{
+    width: 43px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    margin-top: -8%;
+    right: 351px;
+}
+.button4{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    top: 1676px;
+    right: 696px;
+    border-radius: 179%;
+}
+.four-button{
+    font-size: 45px;
+}
+.button5{
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    right: 348px;
+    top: 1676px;
+    background-color: white;
+    border-radius: 50%;
+}
+.five-button{
+    font-size: 45px;
+    margin-top: -2px;
+}
+.seven{
+    position: absolute;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    top: 1734px;
+    right: 547px;
+}
+.four-share{
+    position: absolute;
+    top: 1744px;
+    right: 424px;
+}
+.goals1{
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    top: 1735px;
+    right: 162px;
+}
+.five-share{
+    position: absolute;
+    top: 1746px;
+    right: 70px;
+}
+.best2022{
+    position: relative;
+    top: 155px;
+    left: 95px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 0.9;
+}
+.second-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 222px;
+    margin-left: 82px;
+    cursor: pointer;
+}
+.sec1{
+    width: 327px;
+    height: 185px;
+    overflow: hidden;
+    border-radius: 4%;
+}
+.sec11{
+    width: 327px;
+    height: 185px;
+    transition: .3s;
+}
+.sec2{
+    width: 327px;
+    height: 185px;
+    overflow: hidden;
+    border-radius: 4%;
+}
+.sec21{
+    width: 327px;
+    height: 185px;
+    transition: .3s;
+}
+.sec11:hover{
+    transform: scale(1.1,1.1);
+}
+.sec21:hover{
+    transform: scale(1.1,1.1);
+}
+.sec3{
+    width: 327px;
+    height: 185px;
+    overflow: hidden;
+    border-radius: 4%;
+}
+.sec31{
+    width: 327px;
+    height: 185px;
+    transition: .3s;
+}
+.sec31:hover{
+    transform: scale(1.1,1.1);
+}
+.sec4{
+    width: 327px;
+    height: 185px;
+    overflow: hidden;
+    border-radius: 4%;
+}
+.sec41{
+    width: 327px;
+    height: 185px;
+    transition: .3s;
+}
+.sec41:hover{
+    transform: scale(1.1,1.1);
+}
+.margin{
+    margin-right: 23px;
+    cursor: pointer;
+}
+.font-style{
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    margin-left: 84px;
+    position: relative;
+}
+.font-flex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    cursor: pointer;
+}
+.kulmal{
+    position: absolute;
+    left: 696px;
+}
+.kulmal2{
+    position: absolute;
+    left: 1043px;
+}
+.sec5{
+    width: 63px;
+  height: 185px;
+  overflow: hidden;
+  border-radius: 4%;
+  position: absolute;
+  right: -21px;
+}
+.sec51{
+    width: 63px;
+    height: 185px;
+    transition: .3s;
+    position: absolute;
+}
+.sec51:hover{
+    transform: scale(1.1,1.1);
+}
+.kulmal3{
+    position: absolute;
+    color: gray;
+    right: -11px;
+    overflow: hidden;
+}
+.header-best{
+    position: absolute;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    top: 1897px;
+    left: 91px;
+    font-size: 17px;
+}
+.mpappe-see{
+    position: absolute;
+    font-family: 'poppins', sans-serif;
+    right: 94px;
+    margin-top: 190px;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.4;
+    cursor: pointer;
+}
+.mpappe-see:hover{
+    opacity: 10;
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 113px;
+    margin-left: 88px;
+    position: relative;
+}
+.ball1{
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ball11{
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.ball2{
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ball21{
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.ball11:hover{
+    transform: scale(1.1,1.1);
+}
+.ball21:hover{
+    transform: scale(1.1,1.1);
+}
+.ball3{
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ball31{
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.ball31:hover{
+    transform: scale(1.1,1.1)
+}
+.ball4{
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ball41{
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.ball41:hover{
+    transform: scale(1.1,1.1);
+}
+.ball5{
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ball51{
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.ball51:hover{
+    transform: scale(1.1,1.1);
+}
+.ball6{
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ball61{
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.ball61:hover{
+    transform: scale(1.1,1.1);
+}
+.fifa-store2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 7px;
+    font-family: 'poppins', sans-serif;
+    top: -36px;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.viw-store2{
+    position: absolute;
+    right: 106px;
+    top: -46px;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.viw-store2:hover{
+    opacity: 10;
+}
+.ball7{
+    height: 205px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    right: -23px;
+    width: 85px;
+}
+.ball71{
+    height: 205px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.ball71:hover{
+    transform: scale(1.1,1.1);
+}
+.ball-text{
+    display: flex;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.ball-text1{
+    margin-left: 88px;
+}
+.ball-text2{
+    margin-left: 71px;
+}
+.ball-text3{
+    margin-left: 24px;
+}
+.ball-text4{
+    margin-left: 64px;
+}
+.ball-text5{
+    margin-left:65px ;
+}
+.ball-text6{
+    margin-left: 36px;
+}
+.woman{
+    position: absolute;
+    right: -4px;
+    color: gray;
+}
+/* --------black-div------------ */
+.black-div{
+    width: 100%;
+    height: 1500px;
+    background-color: black;
+    margin-top: -16px;
+    position: relative;
+}
+.the-final{
+    color: #ffff;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    margin-left: 73px;
+    font-size: 31px;
+}
+.the-final1{
+    color: #FFFF;
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 74px;
+    line-height: 25px;
+    font-size: 15px;
+}
+.the-final2{
+    color: #FFFF;
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    line-height: 25px;
+    margin-top: 202px;
+    margin-left: 73px;
+    font-size: 15px;
+}
+.the-final3{
+    color: #FFFF;
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    line-height: 25px;
+    margin-top: 344px;
+    margin-left: 73px;
+    font-size: 15px;
+}
+.ar-vs-fr{
+    position: absolute;
+    right: 95px;
+    width: 712px;
+    height: 400px;
+    top: 33px;
+}
+.win{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 635px;
+    left: 66px;
+}
+.win1{
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.win11{
+    width: 447px;
+    height: 243.5px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.win11:hover{
+    transform: scale(1.1,1.1);
+}
+.win2{
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 22px;
+}
+.win21{
+    width: 447px;
+    height: 243.5px; 
+    border-radius: 10px;
+    transition: .3s;
+}
+.win21:hover{
+    transform: scale(1.1,1.1);
+}
+.win3{
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 22px;
+}
+.win31{
+    width: 447px;
+    height: 243.5px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.win31:hover{
+    transform: scale(1.1,1.1);
+}
+.see-all-win{
+    position: absolute;
+    font-family: 'poppins', sans-serif;
+    color: #ffff;
+    top: 596px;
+    right: 81px;
+    font-size: 13px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.see-all-win:hover{
+     opacity: 10;
+}
+.win4{
+    height: 240.5px;
+    position: absolute;
+    right: -84px;
+    width: 59px;
+    overflow: hidden;
+}
+.win41{
+    height: 243.5px;
+    width: 59px;
+    transition: .3s;
+    border-radius: 10px;
+}
+.win41:hover{
+    transform: scale(1.1,1.1);
+}
+.win-text{
+    display: flex;
+    color: #fff;
+    position: absolute;
+    top: 879px;
+    left: 71px;
+}
+.win-text1{
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.win-text2{
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 146px;
+}
+.win-text3{
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 76px;
+}
+.win-text4{
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+    position: absolute;
+    right: -170px;
+}
+.leo-mpappe{
+    display: flex;
+    position: absolute;
+    top: 1052px;
+    left: 96px;
+}
+.leo{
+    border-radius: 10px;
+    width: 655.6px;
+    height: 368.78px;
+    cursor: pointer;
+}
+.mpappe-messi{
+    border-radius: 10px;
+    width: 655.6px;
+    height: 368.78px;
+    margin-left: 23px;
+    cursor: pointer;
+}
+.header-2{
+    position: fixed;
+    top: 1;
+    margin-top: 31px;
+    width: 100%;
+    z-index: 99999999999999;
+    background-color: #550065;
+}
+.into-the-legent{
+    color: #ffff;
+    position: absolute;
+    top: 1004px;
+    left: 111px;
+    font-family: 'poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.see-all-small{
+    position: absolute;
+  font-family: 'poppins', sans-serif;
+  color: #ffff;
+  top: 1014px;
+  right: 103px;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.see-all-small:hover{
+    opacity: 10;
+}
+.leo-messi{
+    color: #ffff;
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    top: 1416px;
+    left: 101px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.k-mpappe{
+    position: absolute;
+    color: #ffff;
+    font-family: 'poppins', sans-serif;
+    top: 1416px;
+    right: 628px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.second-white-div{
+    background-color: #eeeee4;
+    width: 100%;
+    height: 1396px;
+    position: relative;
+}
+.ad{
+    width: 57.2%;
+    height: 238.9px;
+    margin-left: 334.1px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+.k-stage{
+    font-family: 'poppins', sans-serif;
+    margin-top: 51px;
+    margin-left: 80px;
+    font-weight: 500;
+    font-size: 27px;
+    cursor: pointer;
+}
+.stage1{
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    margin-left: 73px;
+    line-height: 25px;
+    cursor: pointer;
+}
+.stage2{
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    margin-left: 73px;
+    line-height: 25px;
+    margin-top: 39px;
+    cursor: pointer;
+}
+.stage3{
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    margin-left: 73px;
+    line-height: 25px;
+    margin-top: 39px;
+    cursor: pointer;
+}
+.por-moro{
+    width: 729px;
+    height: 427px;
+    position: relative;
+    left: 707px;
+    top: -407px;
+    cursor: pointer;
+}
+.select{
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: -336px;
+    left: 615px;
+    color: rgb(197, 42, 97);
+    cursor: pointer;
+}
+.se-size{
+    font-size: 15px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hr2{
+    width: 88%;
+    position: relative;
+    top: -333px;
+    color: #ff004c;
+    opacity: 0.5;
+}
+.fa-diamond{
+    position: relative;
+    left: 1441px;
+    top: -793px;
+    font-size: 6px;
+}
+.sheet{
+    width: 70%;
+    height: 453px;
+    position: relative;
+    top: -300px;
+    left: 212px;
+    cursor: pointer;
+}
+.round-of{
+    display: flex;
+    position: absolute;
+    top: 844px;
+    left: 278px;
+    cursor: pointer;
+}
+.gray-size{
+    font-family: 'poppins', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 11px;
+    opacity: 0.7;
+}
+.qf{
+    position: relative;
+    left: 111px;
+}
+.sf{
+    position: relative;
+    left: 175px;
+}
+.poft{
+    position: relative;
+    left: 220px;
+}
+.qf2{
+    position: relative;
+    left: 337px;
+}
+.sf2{
+    position: relative;
+    left: 260px;
+}
+.rount-162{
+    position: relative;
+    left: 445px;
+}
+.rount-16{
+    position: relative;
+    left: -5px;
+}
+.gray-size:hover{
+    color: #ff004c;
+}
+.blue-div{
+    width: 100%;
+    height: 368px;
+    background-color: #020f2a;
+    position: relative;
+}
+.blue-images{
+    display: flex;
+   position: absolute;
+   top: 77px;
+    left: 77px;
+    cursor: pointer;
+}
+.blue1{
+   overflow: hidden;
+   width: 327px;
+   height: 185px;
+   border-radius: 10px;
+}
+.blue11{
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.blue11:hover{
+    transform: scale(1.1,1.1);
+}
+.blue2{
+    overflow: hidden;
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+}
+.blue21{
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.blue21:hover{
+    transform: scale(1.1,1.1);
+}
+.blue3{
+    overflow: hidden;
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+}
+.blue31{
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.blue31:hover{
+    transform: scale(1.1,1.1);
+}
+.blue4{
+    overflow: hidden;
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+}
+.blue41{
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.blue41:hover{
+    transform: scale(1.1,1.1);
+}
+.atg{
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    top: 28px;
+    left: 80px;
+    font-weight: 500;
+}
+.blue-texts{
+    display: flex;
+    position: absolute;
+    color: #fff;
+    top: 261px;
+    left: 79px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.blue-t2{
+    position: relative;
+    left: 32px;
+}
+.blue-t3{
+    position: relative;
+    left: 64px;
+}
+.blue-t4{
+    position: relative;
+    left: 91px;
+}
+.blue5{
+    height: 185px;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 58px;
+}
+.blue51{
+    height: 185px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.blue51:hover{
+    transform: scale(1.1,1.1);
+}
+.blue-t5{
+    position: relative;
+    color: gray;
+    left: 122px;
+}
+/* --------third--white--div-------------- */
+.third-white-div{
+    width: 100%;
+    height: 1537px;
+    background-color: #eeeee4;
+}
+.ad2{
+    width: 57.2%;
+    height: 238.9px;
+    margin-left: 334.1px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+.asain{
+    position: relative;
+    top: -909px;
+    left: 1464px;
+}
+.group1{
+    width: 93%;
+    height: 569px;
+    position: relative;
+    top: -300px;
+    left: 41px;
+    cursor: pointer;
+}
+.hr3{
+    width: 91%;
+    position: relative;
+    top: -333px;
+    color: #ff004c;
+    opacity: 0.5;
+}
+.second-whilet{
+    width: 100%;
+    height: 645px;
+    background-color: #550065;
+    position: relative;
+}
+.chevez-div{
+    display: flex;
+    position: absolute;
+    top: 77px;
+    left: 77px;
+    cursor: pointer;
+    
+}
+.chevez1{
+    overflow: hidden;
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+}
+.chevez11{
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.chevez11:hover{
+    transform: scale(1.1,1.1);
+}
+.chevez2{
+    overflow: hidden;
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+}
+.chevez21{
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.chevez21:hover{
+    transform: scale(1.1,1.1);
+}
+.chevez3{
+    overflow: hidden;
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+}
+.chevez31{
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.chevez31:hover{
+    transform: scale(1.1,1.1);
+}
+.chevez4{
+    overflow: hidden;
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+}
+.chevez41{
+    width: 327px;
+    height: 185px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.chevez41:hover{
+    transform: scale(1.1,1.1);
+}
+.chevez5{
+    width: 327px;
+    border-radius: 10px;
+    width: 59px;
+    overflow: hidden;
+}
+.chevez51{
+    height: 185px;
+    border-radius: 10px;
+    transition: .3s;
+    width: 59px;
+}
+.chevez51:hover{
+    transform: scale(1.1,1.1);
+}
+.see-all-two{
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+    right: 75px;
+    font-size: 13px;
+    font-weight: 500;
+    top: 37px;
+}
+.see-all-two:hover{
+    opacity: 10;
+}
+.whilet-text{
+    display: flex;
+    position: absolute;
+    color: #fff;
+    top: 261px;
+    left: 79px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.w-text1{
+    position: relative;
+    left: -11px;
+}
+.w-text2{
+    position: relative;
+    left: 15px;
+}
+.w-text3{
+    position: relative;
+    left: 40px;
+}
+.w-text4{
+    position: relative;
+    left: 74px;
+}
+.w-text5{
+    position: absolute;
+    color: gray;
+    right: -193px;
+}
+.small-images{
+    position: absolute;
+    display: flex;
+    top: 428px;
+    left: 70px;
+    cursor: pointer;
+}
+.small1{
+    overflow: hidden;
+    width: 225px;
+    height: 127px;
+    border-radius: 6px;
+}
+.small11{
+    width: 225px;
+    height: 127px;
+    transition: .3s;
+    border-radius: 6px;
+}
+.small11:hover{
+    transform: scale(1.1,1.1);
+}
+.small2{
+    overflow: hidden;
+    width: 225px;
+    height: 127px;
+    border-radius: 6px;
+    margin-left: 19px;
+}
+.small21{
+    width: 225px;
+    height: 127px;
+    transition: .3s;
+    border-radius: 6x;
+}
+.small21:hover{
+    transform: scale(1.1,1.1);
+}
+.small3{
+    overflow: hidden;
+    width: 225px;
+    height: 127px;
+    border-radius: 6px;
+    margin-left: 19px;
+}
+.small31{
+    width: 225px;
+    height: 127px;
+    transition: .3s;
+    border-radius: 6x;
+}
+.small31:hover{
+    transform: scale(1.1,1.1);
+}
+.small4{
+    overflow: hidden;
+    width: 225px;
+    height: 127px;
+    border-radius: 6px;
+    margin-left: 19px;
+}
+.small41{
+    width: 225px;
+    height: 127px;
+    transition: .3s;
+    border-radius: 6x;
+}
+.small41:hover{
+    transform: scale(1.1,1.1)
+}
+.small5{
+    overflow: hidden;
+    width: 225px;
+    height: 127px;
+    border-radius: 6px;
+    margin-left: 19px;
+}
+.small51{
+    width: 225px;
+    height: 127px;
+    transition: .3s;
+    border-radius: 6x;
+}
+.small51:hover{
+    transform: scale(1.1,1.1)
+}
+.small6{
+    overflow: hidden;
+    width: 225px;
+    height: 127px;
+    border-radius: 6px;
+    margin-left: 19px;
+}
+.small61{
+    width: 225px;
+    height: 127px;
+    transition: .3s;
+    border-radius: 6x;
+}
+.small61:hover{
+    transform: scale(1.1,1.1)
+}
+.stadiums{
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    top: 384px;
+    left: 78px;
+    font-weight: 500;
+    color: white;
+}
+.see-all5{
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+    right: 23px;
+    font-size: 13px;
+    font-weight: 500;
+    top: 388px;
+}
+.see-all5:hover{
+    opacity: 10;
+}
+.small-text{
+    display: flex;
+    position: absolute;
+    color: #fff;
+    top: 544px;
+    left: 75px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.small-text2{
+    position: relative;
+    left: 43px;
+}
+.small-text3{
+    position: relative;
+    left: 90px;
+}
+.small-text4{
+    position: relative;
+    left: 125px;
+}
+.small-text5{
+    position: relative;
+    left: 276px;
+}
+.small-text6{
+    position: relative;
+    left: 338px;
+}
+.forth-white-div{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.fr-ar-final{
+    position: absolute;
+    right: -3px;
+    width: 100%;
+    top: 288px;
+    left: 0px;
+    height: 639px;
+    object-fit: cover;
+    filter: brightness(66%);
+
+}
+.last-text{
+    position: absolute;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+    top: 492px;
+    left: 65px;
+    font-size: 35px;
+}
+.last-all{
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    color: #ffff;
+    position: absolute;
+    top: 629px;
+    left: 65px;
+}
+.last-button{
+    position: absolute;
+  top: 691px;
+  left: 84px;
+  background: none;
+  color: white;
+  font-family: 'poppins', sans-serif;
+  border-radius: 20px;
+  border-color: white;
+  width: 117px;
+  height: 38px;
+  font-weight: 500;
+  transition: .3s;
+}
+.last-button:hover{
+    transform: scale(1.1,1.1);
+}
+.footter{
+    width: 100%;
+    height: 590px;
+    background-color: #550065;
+    margin-top: -81px;
+    position: relative;
+}
+.f-logo{
+    width: 66px;
+    height: 22px;
+    margin-top: 18px;
+    margin-left: 97px;
+    cursor: pointer;
+    position: absolute;
+    top: -4px;
+}
+.f-social{
+    display: flex;
+  margin-left: 330px;
+  margin-top: -27px;
+  top: 43px;
+  position: absolute;
+}
+.last-social{
+    width: 22px;
+    height: 17px;
+    margin-right: 15px;
+}
+.face-last{
+    width: 52px;
+    height: 35px;
+    margin-top: -9px;
+    cursor: pointer;
+
+}
+.ins-last{
+    width: 51px;
+    height: 46px;
+    margin-top: -16px;
+    margin-left: -11px;
+    cursor: pointer;
+}
+.you-last{
+    margin-top: -2px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+.tik-last{
+    border-radius: 5px;
+  width: 22px;
+  height: 19px;
+  margin-top: -3px;
+  margin-left: 21px;
+  cursor: pointer;
+
+}
+.last-down{
+    color: #FFFF;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    margin-top: -1px;
+    margin-left: 251px;
+    font-size: 13px;
+    
+}
+.play-last{
+    width: 104px;
+    height: 31px;
+    position: absolute;
+    margin-top: -9px;
+    right: 129px;
+    cursor: pointer;
+}
+.last-app{
+    width: 104px;
+    height: 31px;
+    margin-left: 212px;
+    margin-top: -9px;
+    cursor: pointer;
+}
+.last-hr{
+    color:yellow ;
+}
+.hr-div{
+    position: relative;
+    top: 54px;
+}
+.f-partners{
+    position: absolute;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    top: 59px;
+    left: 682px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.brands{
+    display: flex;
+    position: absolute;
+    top: 124px;
+    left: 298px;
+}
+.b-margin{
+    width: 89px;
+    margin-right: 69px;
+    height: 46px;
+    cursor: pointer;
+}
+.visa{
+    position: absolute;
+    width: 95px;
+    top: 189px;
+    left: 682px;
+}
+.last-fifa{
+    position: absolute;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    left: 656px;
+    font-weight: 500;
+    font-size: 13px;
+    top: 247px;
+}
+.brands2{
+    position: absolute;
+    display: flex;
+    left: 352px;
+    top: 310px;
+    
+}
+.b2-margin{
+    width: 87px;
+    margin-right: 48px;
+    height: 46px;
+    cursor: pointer;
+}
+.last-im{
+    width: 87px;
+    height: 46px;
+    cursor: pointer;
+    position: absolute;
+    left: 693px;
+    top: 376px;
+}
+.regi-sup{
+    position: absolute;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    color: #ffff;
+    top: 434px;
+    left: 664px;
+    font-size: 13px;
+}
+.last-final{
+    display: flex;
+    position: absolute;
+    left: 590px;
+    top: 487px;
+}
+.b3-margin{
+    width: 60px;
+    margin-right: 48px;
+    height: 29px;
+    cursor: pointer;
+}
+.last2-hr{
+    color: yellow;
+    position: relative;
+    top: 519px;
+}
+.foot-text{
+    position: absolute;
+    color: white;
+    display: flex;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    top: 537px;
+    left: 65px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.copy{
+    font-family: 'poppins', sans-serif;
+    margin-left: 620px;
+     font-size: 11px;
+}
+.margin:hover{
+    color: #D5C46C;
+}
